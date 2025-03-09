@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project5(1).css">
+  <title>Depop Favorite Item Form</title>
+</head>
+<body>
+  <form action="https://sheetdb.io/api/v1/wwjz4t0fndnx0" method="POST" enctype="multipart/form-data" class="formdata" style="margin-left: 100px;">
+    <div>
+      <label for="Age">Choose your age:</label><br>
+        <select id="Age" name="data[Age]">
+            <option value="Under18">Under 18 years old</option>
+            <option value="18to25">18 - 25 years old</option>
+            <option value="25to30">25 - 30 years old</option>
+            <option value="30to40">30 - 40 years old</option>
+            <option value="Over40">Over 40 years old</option>
+        </select>
+    </div>
+    <div>
+      <label for="Income">Choose your income (choose guardian's income if co-dependent):</label><br>
+        <select id="Income" name="data[Income]">
+            <option value="Below30k">Below 30k a year</option>
+            <option value="30kto70k">30k - 70k a year</option>
+            <option value="70kto100k">70k - 100k a year</option>
+            <option value="100kto150k">100k - 150k a year</option>
+            <option value="150kto200k">150k - 200k a year</option>
+            <option value="Above200k">Above 200k a year</option>
+        </select>
+    </div>
+    <div>
+      <label for="Gender">Choose your income (choose guardian's income if co-dependent):</label><br>
+        <select id="Gender" name="data[Gender]">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+    <div>
+      <label for="depopUsername">Depop Username:</label>
+      <input type="text" id="depopUsername" name="data[Depop Username]" required>
+    </div>
+    <div>
+      <label for="favoriteItem">Favorite Item on Depop (link):</label>
+      <input type="text" id="Favorite Item URL" name="data[Favorite Item URL]" required>
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+  <img src="stickynote.png" alt="stickynote" style = "z-index: 5; width: 300px; margin-left:100px;">
+  <div class = "sticky">
+    <h5 style = "z-index: 20; color: blue; text-shadow: 2px 2px 4px rgba(125, 125, 125, 0.5);">Reinventing the way you shop for clothes.</h5>
+  </div>
+  <img src="tape.png" style="width: 150px; z-index: 30; transform: translate(-1050px, 200px);">
+</body>
+</html>
